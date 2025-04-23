@@ -12,6 +12,7 @@ A simple and fun Android application that displays random cat facts using the Ca
 
 
 # Screenshots:
+![App Screenshot](https://github.com/subhamsinhadev/CatFacts/blob/main/Sample.jpg)
 
 
 # Tech Stack:
