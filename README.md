@@ -28,7 +28,7 @@ REST API (CatFacts API)
 
 1. Clone the repository:
 
-git clone https://github.com/subhamsinhadev/CatFactsApp.git
+git clone https://github.com/subhamsinhadev/CatFacts.git
 
 
 2. Open the project in Android Studio
