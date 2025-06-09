@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="#8F87F1"
+	android:id="@+id/root"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:id="@+id/outline"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:minHeight="100dp">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:id="@+id/activity_mainTextView"
+				android:gravity="center"
+				android:textSize="21sp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp"/>
+
+			<Button
+				android:drawableStart="@drawable/cat"
+				android:layout_width="match_parent"
+				android:id="@+id/activity_mainButton"
+				style="?android:attr/buttonStyleSmall"
+				android:layout_height="wrap_content"
+				android:text="Meow"
+				android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginBottom="10dp"/>
+
+		</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:layout_height="wrap_content">
+
+		<ImageButton
+			android:src="@drawable/ic_github"
+			android:layout_width="50dp"
+			android:background="@android:color/transparent"
+			android:layout_height="50dp"
+			android:text="Button"
+			android:onClick="github"
+			android:layout_gravity="left"
+			android:gravity="center"/>
+
+		<ImageButton
+			android:src="@drawable/ic_dev_to"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:text="Button"
+			android:onClick="info"
+			android:layout_gravity="right"
+			android:background="@android:color/transparent"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
